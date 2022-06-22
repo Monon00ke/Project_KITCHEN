@@ -13,6 +13,7 @@ package com.example.kylud;
         TextView tW3;
         Button button123;
         Button gm;
+        //ddddddd
         int i = 0;
 
         @Override
