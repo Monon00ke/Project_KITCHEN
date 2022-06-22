@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PELMENI">
+
+    <Button
+        android:id="@+id/buttoo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:backgroundTint="@color/eee"
+        android:text="дальше"
+        android:textColor="@color/rrr"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/eee"
+        android:text="В главное меню"
+        android:textColor="@color/rrr"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="ПЕЛЬМЕНИ"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Мука пшеничная просеянная - 500 г + для работы с тестом \n
+Вода горячая (70-75 градусов) - 250 мл\n
+Яйцо (небольшое) - 1 шт.\n
+Соль - 1 ч. ложка без горки\n
+Масло растительное без запаха - 25 мл\n
+*\n
+Для начинки:\n
+Мясо (говядина и свинина) - 550 г\n
+Лук репчатый - 200 г\n
+Сало (по желанию, если мясо постное) - 30 г\n
+Вода - 70-80 г (по консистенции фарша)\n
+Соль - 1 ч. ложка без горки\n
+Перец чёрный молотый - по вкусу\n
+*\n
+Для варки:\n
+Лист лавровый - по вкусу\n
+Соль - по вкусу\n
+Перец чёрный горошком - по вкусу\n
+Лук репчатый - 1/4 шт.\n
+*\n
+Для подачи:\n
+Масло сливочное - по вкусу"
+
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
